@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const API_URL = 'https://acme-fashion-backend-91579245630.europe-west2.run.app'
+const API_URL = 'http://localhost:8080'
 
 export default function Cart({ items, onClose, onRemove, onUpdateQty, onOrderPlaced }) {
   const [step, setStep] = useState('cart') // cart | checkout | placing | done
